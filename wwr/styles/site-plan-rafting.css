@@ -11,7 +11,7 @@ Fonts are separated by a & */
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Robot", sans-serif;
+  --heading-font: "Roboto", sans-serif;
   --paragraph-font: "Sofia Sans", sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -160,3 +160,4 @@ nav a:hover {
 .right {
   grid-area: right;
   border-top: 1px solid;
+}
