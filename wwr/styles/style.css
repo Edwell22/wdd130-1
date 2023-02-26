@@ -325,7 +325,7 @@ nav {
 }
 
 nav a:hover {
-  background-color: #385454;
+  background-color: #353636;
   color: skyblue;
   text-decoration: none;
   border-radius: 5px;
@@ -359,14 +359,14 @@ h2 {
 }
 
 header {
-  background-color: #b6cdac;
+  background-color: #6c6e6a;
   display: grid;
   grid-template-columns: 150px auto;
 }
 
 .book,
 .join {
-  background-color: #d7eecd;
+  background-color: #6a6b69;
   font-size: 18px;
   color: skyblue;
   text-decoration: none;
@@ -387,7 +387,7 @@ main section img {
 }
 
 .home-title {
-  color: #3ba2da;
+  color: #1c2124;
   font-family: "Kalam", cursive;
   font-size: 2em;
   margin-top: 10px;
@@ -450,7 +450,7 @@ footer a {
 }
 
 footer {
-  background-color: #b6cdac;
+  background-color: #616060;
   color: black;
   padding: 25px 50px;
   margin-top: 200px;
@@ -461,7 +461,7 @@ footer {
 
 footer a:hover {
   color: #3ba2da;
-  background-color: #385454;
+  background-color: #737777;
   text-decoration: none;
   border-radius: 5px;
 }
