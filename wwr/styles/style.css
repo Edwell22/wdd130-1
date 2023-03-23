@@ -102,6 +102,7 @@ header {
   background-color: #6c6e6a;
   display: grid;
   grid-template-columns: 150px auto;
+  
 }
 
 .book,
