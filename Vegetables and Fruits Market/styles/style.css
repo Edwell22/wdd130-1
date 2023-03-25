@@ -60,10 +60,23 @@ main section{
 }
 #background {
     height: 725px;
-    background-color: antiquewhite;
+    background-color: wheat;
     grid-column: 2/11;
     grid-row: 4/9;
+    display: flex;
+    padding: auto;
 }
+
+.msg  {
+     background-color: #f1f8ef;
+line-height: 1.5em;
+padding: 35px;
+grid-column: 6/10;
+grid-row: 6/7;
+box-shadow: 5px 5px 10px #6f7364;
+
+}
+
 body {
     background-color: #ffffff;
     font-size: 22px;
@@ -135,13 +148,13 @@ main section img {
     margin: 200px 0;
 }
 
-.watermelon-card {
+/* .watermelon-card {
     grid-column: ;
     grid-row: ;
 
-}
+} */
 
-.banana-card {
+/* .banana-card {
     grid-column:;
     grid-row: ;
 
@@ -151,7 +164,7 @@ main section img {
     grid-column: ;
     grid-row: ;
 
-}
+} */
 
 
 .greanbeans  {
@@ -162,17 +175,8 @@ main section img {
     background-color: rgb(235, 160, 69);
     text-decoration: none;
 }
-#background {
-    background-color: wheat;
-}
-.msg {
-    background-color: wheat;
-    color:  #fcfcfc;
-    line-height: 1.5em;
-    padding: 35px;
-    grid-column: 5/10;
-    grid-row: 5px 5px 10px #eee;
-}
+
+
 footer {
   background-color: hsla(128, 93%, 35%, 0.882); 
   color: #05111fe1;
@@ -222,11 +226,7 @@ footer a:hover {
     padding-top: 10px;
 }
 
-.home-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 50px;
-}
+
 .logo {
     width: 85px;
 }
@@ -244,4 +244,5 @@ footer p a:hover {
 .home-gr{
  display: grid;
  grid-template-columns: 1fr 1fr 1fr ;
+ 
 }
