@@ -322,3 +322,46 @@ form {
         color: rgb(13, 124, 189);
         background-color: whitesmoke;
     }
+
+    /* Vegetables page */
+
+    .main {
+        display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+  margin: 80px;
+    }
+
+    .main02 {
+        display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  margin: 50px;
+    }
+
+#backbone {
+    height: 725px;
+    padding: auto;
+    display: flex;
+    
+}
+
+.text {
+    
+    text-align: center;
+    margin: 30px;
+
+}
+
+.text h2 {
+    font-family: "Sofia Sans", sans-serif;
+
+    color: rgb(4, 38, 134);
+}
+
+.cab,
+.oni,
+.bro,
+.car {
+    border: 10px solid rgb(1, 29, 29); 
+}
