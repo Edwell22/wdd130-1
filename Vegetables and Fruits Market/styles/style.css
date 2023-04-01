@@ -409,11 +409,14 @@ padding: auto;
     grid-column: 1/4;
 }
 
+
 .type h2 {
     font-family: "Sofia Sans", sans-serif;
     color: rgb(4, 38, 134);
 }
 
 .O {
-   float: right;
+   max-width: 450px;
+   
+   
 }
