@@ -90,9 +90,6 @@ h2{
 header {
      background-color: hsla(128, 93%, 35%, 0.882);
     color: #000;
-    /* display: grid;
-    grid-template-columns: 240px auto;
-    grid-template-rows: 180 auto;  */
     display: flex;
     text-align: center;
     padding: 10px 15px;
@@ -113,7 +110,7 @@ nav a:hover {
 }
 
 .register, .join {
-    background-color: #0a3636;
+    background-color: #70c7c7;
     color: #064aaf;
     text-decoration: none;
     font-size: 18px;
@@ -212,13 +209,18 @@ footer.social img {
     padding-bottom: 15px;
 }
 footer a {
-    color: #000;
+    color: white;
     text-decoration: none;
 }
+
+footer {
+    color: white;
+}
+
 footer a:hover {
-    background-color: #407edbe1;
+    background-color: white;
     text-decoration: none;
-    color: #000;
+    color: #0000;
     border-radius: 5px;
 }
 .icon {
@@ -364,4 +366,54 @@ form {
 .bro,
 .car {
     border: 10px solid rgb(1, 29, 29); 
+}
+
+/* Fruits page  */
+
+
+.sicmain {
+    display: grid;
+ grid-template-columns: 1fr 1fr 1fr ;
+ grid-gap: 10px;
+ margin-top: 150px;
+ 
+}
+
+.G,
+.A,
+.P {
+    border: 10px solid rgb(1, 29, 29);
+}
+
+.backpay {
+    display: grid;
+    grid-template-columns: 10fr;
+    margin-top: 200px;
+    
+    
+ 
+}
+
+#goldback {
+display: flex;
+padding: auto;
+}
+
+
+
+.backpay{
+    grid-column: 2/4;
+}
+
+.league {
+    grid-column: 1/4;
+}
+
+.type h2 {
+    font-family: "Sofia Sans", sans-serif;
+    color: rgb(4, 38, 134);
+}
+
+.O {
+   float: right;
 }
